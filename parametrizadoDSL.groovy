@@ -12,7 +12,7 @@ job('ejemplo2-job-DSL') {
         booleanParam('agente', false)
     }
     triggers {
-        cron('H/10 * * * *')
+        cron('H/12 * * * *')
     }
     steps {
         shell('bash jobscript.sh')
